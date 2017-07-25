@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<base href="/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="stylesheet" href="/DashboardEC2/styles/login.css">
+<link rel="stylesheet" href="/DashboardEC2/styles/bootstrap.min.css">
+<script type='application/javascript'
+	src="/DashboardEC2/js/jquery.min.js"></script>
+<script type='application/javascript'
+	src="/DashboardEC2/js/bootstrap.min.js"></script>
+
+
+
+
+<title>Insert title here</title>
+</head>
+<body class="app"
+	style="background: url('/DashboardEC2/images/Loginbackgroundimage.jpg')">
+
+	<div class="login-page" style="height: 100%">
+		<div class="form">
+			<span class="LoginLbl">AWS DashboardEC2</span></br>
+			<form class="login-form" action="/DashboardEC2/LoginController"
+				name="loginForm" method="post" style="padding-top: 35px;">
+				<input type="text" name="username" class="form-control"
+					id="username" placeholder="User" /> <input type="password"
+					class="form-control" placeholder="Password" id="password" />
+				<div class="errorText" id="loginFail" style="display: none">
+					<span>{{errorFirstMsg}}</span><br> <span>{{errorSecondMsg}}</span><br>
+					<br>
+				</div>
+				<button type="submit" class="loginBtn" style="margin-top: 15px;">
+					login</button>
+			</form>
+		</div>
+	</div>
+	<!--     <google-analytics code="UA-72329845-1"></google-analytics> -->
+</body>
+</html>

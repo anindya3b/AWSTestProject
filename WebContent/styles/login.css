@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+@font-face {
+	font-family: GE-inspira-regular;
+	src: url('GE Inspira Regular.ttf');
+}
+
+.login-page {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 50px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+}
+
+.form input {
+	font-family: GE-inspira-regular !important;
+	outline: 0;
+	/*background: #f2f2f2;*/
+	width: 100%;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button {
+	font-family: GE-inspira-regular !important;
+	text-transform: uppercase;
+	outline: 0;
+	background: #ccc;
+	width: 100%;
+	border: 0;
+	padding: 10px;
+	color: #333333;
+	border-radius: 4px;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+	background: #43A047;
+	color: #ffffff;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #333333;
+	font-size: 12px;
+	float: right;
+}
+
+.form .message a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.form .register-form {
+	display: none;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.container:before, .container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container .info {
+	margin: 50px auto;
+	text-align: center;
+}
+
+.container .info h1 {
+	margin: 0 0 15px;
+	padding: 0;
+	font-size: 36px;
+	font-weight: 300;
+	color: #1a1a1a;
+}
+
+.container .info span {
+	color: #4d4d4d;
+	font-size: 12px;
+}
+
+.container .info span a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.container .info span .fa {
+	color: #EF3B3A;
+}
+
+body {
+	background: #333333; /* fallback for old browsers */
+	background: -webkit-linear-gradient(right, #333333, #333333);
+	background: -moz-linear-gradient(right, #333333, #333333);
+	background: -o-linear-gradient(right, #333333, #333333);
+	background: linear-gradient(to left, #333333, #333333);
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	background: url('../images/Loginbackgroundimage.jpg');
+}
+
+html:not ([style-scope] ):not (.style-scope ) {
+	/* background-color: #333333 !important; */
+	/* background:url('../images/Loginbackgroundimage.jpg'); */
+	
+}
+
+.bottomBorder {
+	border-bottom: solid 2px #ccc;
+	margin-top: 10px;
+}
+
+.labelColor {
+	color: #265F72;
+}
+
+.labelPadding {
+	padding-left: 15px;
+}
+
+.dropdownWidth {
+	width: 325px;
+}
+
+.overlaySearch {
+	background: #000000;
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+.overlayImagePos {
+	padding-top: 150px;
+	padding-left: 600px;
+}
+
+.main-content {
+	padding: 0 2rem;
+	margin: 0px !important;
+	background-color: #3B3B3F;
+}
+
+.header-banner {
+	background-color: #3B3B3F !important;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.nav-heading {
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	border: none;
+	background-color: white;
+}
+
+.no-left-padding {
+	padding-left: 0px !important;
+}
+
+.no-right-padding {
+	padding-right: 0px !important;
+}
+
+.no-top-padding {
+	padding-top: 0px !important;
+}
+
+.no-bottom-padding {
+	padding-bottom: 0px !important;
+}
+
+.no-left-margin {
+	margin-left: 0px !important;
+}
+
+.no-right-margin {
+	margin-right: 0px !important;
+}
+
+.no-top-margin {
+	margin-top: 0px !important;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0px !important;
+}
+
+.no-border-radius {
+	border-radius: 0px !important;
+}
+
+.cursorHand {
+	cursor: pointer !important;
+	color: grey !important;
+}
+
+.MapMgtDiv {
+	border-right: 1px solid #D3D3DB !important;
+	background-color: white;
+	height: calc(100vh - 150px);
+	max-height: calc(100vh - 150px);
+	overflow-y: auto;
+}
+
+.panel-group .panel {
+	border-radius: 5px 5px 0px 0px !important;
+}
+
+.receiverMgtPopup {
+	padding-top: 2% !important;
+	padding-bottom: 1% !important;
+	padding-left: 0px !important;
+	/* border-bottom: 1px solid #ccc !important; */
+}
+
+.loginBtn {
+	background-color: #0160BA !important;
+	color: white !important;
+	font-family: GE-inspira-regular !important;
+	font-size: 20px;
+}
+
+.redBackgroundBorder {
+	border-color: red !important;
+	color: red;
+}
+
+.errorText {
+	color: red;
+	font-size: 14px;
+	font-family: GE-inspira-regular !important;
+}
+
+.LoginLbl {
+	font-family: GE-inspira-regular !important;
+	font-size: 35px !important;
+}

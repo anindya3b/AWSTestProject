@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+.main-content {
+	direction: rtl;
+	padding-right: 1px;
+}
+
+#dropdownMenu1 {
+	float: left;
+	direction: rtl;
+}
+
+.dropdownx {
+	float: left;
+	direction: rtl;
+	margin-right: 13px;
+	margin-top: 12px !important;
+}
+
+#title {
+	float: right !important;
+	direction: ltr;
+}
+
+#subtitle {
+	float: left !important;
+	direction: ltr;
+}
+
+px-login {
+	right: -1px;
+}
+
+.footer {
+	direction: rtl;
+	float: left;
+}

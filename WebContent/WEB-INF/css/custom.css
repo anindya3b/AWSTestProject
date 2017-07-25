@@ -1,0 +1,1201 @@
+@font-face {
+	font-family: GE-inspira-regular;
+	src: url('GE Inspira Regular.ttf');
+}
+
+px-app-nav.navbar.x-scope.px-app-nav-0 {
+	margin-bottom: 0px;
+}
+
+body {
+	background-color: #333 !important;
+}
+
+.heading {
+	font-size: 22px;
+	float: left;
+	padding: 1%;
+}
+
+main.u-pt--.u-pr--.u-pl-- {
+	padding: 0px !important;
+	background: #ccc;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.nav-heading {
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	border: none;
+	background-color: white;
+}
+
+.no-left-padding {
+	padding-left: 0px !important;
+}
+
+.no-right-padding {
+	padding-right: 0px !important;
+}
+
+.no-top-padding {
+	padding-top: 0px !important;
+}
+
+.no-bottom-padding {
+	padding-bottom: 0px !important;
+}
+
+.no-left-margin {
+	margin-left: 0px !important;
+}
+
+.no-right-margin {
+	margin-right: 0px !important;
+}
+
+.no-top-margin {
+	margin-top: 0px !important;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0px !important;
+}
+
+.no-border-radius {
+	border-radius: 0px !important;
+}
+
+.px-login-0 .login.px-login {
+	padding: 0 !important;
+}
+
+.px-login-0 {
+	background-color: #212121 !important;
+}
+
+.px-login-0 .login.px-login ul.px-login li.px-login:hover {
+	background-color: white !important;
+}
+
+.viewport:not ([style-scope] ):not (.style-scope ) {
+	margin-right: 0rem !important;
+	margin-left: 0rem !important;
+}
+
+.btcolorFilter {
+	background-color: whitesmoke !important;
+	cursor: pointer;
+	width: 140px;
+	margin-left: 0px !important;
+	padding-top: 1% !important;
+	font-family: GE-inspira-regular !important;
+	color: #858585 !important;
+	height: 40px !important;
+	font-size: 16px !important;
+	/* font-weight: bold !important; */
+}
+
+.btcolorNOTBook {
+	border-radius: 5px !important;
+	border-color: #78C500 !important;
+	background-color: #78C500 !important;
+	color: #ffffff !important;
+	font-size: 13px !important;
+	font-family: GE-inspira-regular !important;
+	border-radius: 5px !important;
+}
+
+.btcolorNOTBook:hover {
+	border-color: #1E5E0A !important;
+	background-color: #1E5E0A !important;
+}
+
+.btcolorBook {
+	border-radius: 5px !important;
+	border-color: #76C301 !important;
+	background-color: white !important;
+	color: #76C301 !important;
+	font-size: 13px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.btcolorActive {
+	border-radius: 5px !important;
+	border: 0px solid #EEE !important;
+	background-color: white !important;
+	color: #00cc44 !important;
+	width: 100px;
+	height: 2.5rem !important;
+}
+
+.btcolorBooked {
+	border-radius: 5px !important;
+	border: 0px solid red !important;
+	background-color: white !important;
+	color: red !important;
+	width: 100px;
+	height: 2.5rem !important;
+}
+
+.btcolorRepair {
+	border-radius: 5px !important;
+	border: 0px solid orange !important;
+	background-color: white !important;
+	color: orange !important;
+	width: 100px;
+	height: 2.5rem !important;
+}
+
+.tableDetailedView tr th {
+	line-height: 3;
+	text-align: center;
+	background-color: #575757 !important;
+	font-size: 13px !important;
+	color: #ffffff !important;
+	font-family: GE-inspira-regular;
+	/* padding-left: 5px !important; */
+}
+
+.tableDetailedView tr td {
+	line-height: 3.3;
+	/* text-align:center; */
+	font-size: 13px !important;
+	font-family: GE-inspira-regular;
+	padding-left: 5px;
+}
+
+.tableDetailedViewMGT tr td {
+	line-height: 2.7;
+	text-align: left;
+	font-size: 13px !important;
+	font-family: GE-inspira-regular;
+	padding-left: 5px;
+}
+
+.BeaconTrackingPage table, th, td {
+	/* border-bottom: 2px solid #BFBFBF; */
+	border-collapse: collapse;
+}
+
+.repairLogs {
+	height: 45px;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding-top: 3%;
+	color: #BFBFBF;
+}
+
+.noItemSelected {
+	font-size: 22px;
+	font-family: GE-inspira-regular;
+	color: #BBBBBB;
+}
+
+.progressbarscrller::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+.progressBar {
+	height: 295px;
+	max-height: 295px;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar-thumb {
+	height: 8px;
+	border-radius: 5px;
+	background: grey;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.ballIconSize {
+	width: 17px;
+	height: 17px;
+}
+
+.rowSelected {
+	background: #FFF788 !important;
+	color: #575757 !important;
+	/* font-weight: bold !important; */
+}
+
+.btSelected {
+	background: #ffffff !important;
+	color: #1a97fa !important;
+	/* font-size: 16px; */
+	font-family: GE-inspira-regular;
+	/*  font-weight: bold !important; */
+	border-bottom: 4px solid !important;
+}
+
+.cursorHand {
+	cursor: pointer !important;
+}
+
+.oddRow1 {
+	background: #FFFFFF;
+	height: 30px;
+}
+
+.evenRow1 {
+	background: #F5F5F5;
+	height: 30px;
+}
+
+.btDone {
+	background-color: #0160BA !important;
+	color: white !important;
+	border-color: #0160BA !important;
+	border-radius: 5px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.btClose {
+	background-color: #ccc !important;
+	border-color: #ccc !important;
+	border-radius: 18px !important;
+}
+
+.popupHeader {
+	font-size: 30px;
+	font-family: GE-inspira-regular !important;
+	color: #BFBFBF;
+	text-align: center;
+}
+
+.floorMap {
+	width: 80%;
+	height: 280px;
+}
+
+.floorMapExam {
+	padding-top: 70px;
+	width: 85% !important;
+	max-width: 85% !important;
+}
+
+.modal-header {
+	border-bottom: 2px solid #e5e5e5 !important;
+}
+
+.modal-footer {
+	padding: 10px 10px 10px !important;
+	border-top: 2px solid #e5e5e5 !important;
+}
+
+button:active {
+	outline: none;
+	border: none;
+}
+
+.displayNav {
+	display: none;
+}
+
+.popover-content {
+	background-color: red;
+	color: white;
+}
+
+.popover {
+	background-color: red !important;
+	font-size: 12px !important;
+}
+
+.redBackgroundBorder {
+	border-color: red !important;
+	color: red;
+}
+
+.tableLayout {
+	height: 355px;
+	background-color: white;
+	border: 5px solid #ccc !important;
+	border-radius: 10px !important;
+}
+
+.mapLayout {
+	height: 350px;
+	border-radius: 10px;
+	background-color: white;
+	border: 5px solid #ccc !important;
+}
+
+.infoLayout {
+	/* margin-top: 1%; */
+	padding-left: 2% !important;
+	padding-right: 2% !important;
+}
+
+.assetLayout {
+	height: 205px;
+	border: 5px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	/* margin-bottom: 2%; */
+}
+
+.assetLayoutMGT {
+	height: 249px;
+	border: 5px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 1%;
+}
+
+.errorLayout {
+	height: 204px;
+	border: 5px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	/* margin-bottom: 2%; */
+	padding-left: 2%;
+}
+
+.labelColor {
+	/* padding-left: 10px;
+    padding-top: 5px; */
+	font-size: 17px;
+	color: #00386f !important;
+	font-family: GE-inspira-regular !important;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFF;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+/*.btn:not([style-scope]):not(.style-scope) {
+    display: inline-block;
+    overflow: visible;
+    height: 2.5em;
+    margin: 0;
+    border: transparent;
+    border-radius: 3px;
+    padding: 0 1em;
+    border-color: white white blue white;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    font: inherit;
+    line-height: calc(2em - 2px);
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    white-space: nowrap;
+    background-color: #e4e4ea;
+}*/
+.navtabs:not ([style-scope] ):not (.style-scope ) {
+	display: inline-block;
+	overflow: visible;
+	height: 1.7em !important;
+	margin: 0;
+	border: transparent;
+	border-radius: 3px;
+	padding: 0 1em;
+	/*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);*/
+	font: inherit;
+	/*  line-height: calc(2em - 2px); */
+	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	white-space: nowrap;
+	background-color: WHITE !important;
+}
+
+.list-inline {
+	background-color: #3B3B3F !important;
+}
+
+.labelColorGreen {
+	color: #00cc44;
+	font-size: 22px;
+	padding-top: 6%;
+	text-align: center;
+	font-family: GE-inspira-regular !important;
+}
+
+.labelColorRed {
+	color: red !important;
+	font-size: 22px;
+	padding-top: 6%;
+	text-align: center;
+	font-family: GE-inspira-regular !important;
+}
+
+.labelColorOrange {
+	color: orange !important;
+	font-size: 22px;
+	padding-top: 6%;
+	text-align: center;
+	font-family: GE-inspira-regular !important;
+}
+
+.modal-footer {
+	margin-top: 0px !important;
+}
+
+.modalheader {
+	background-color: #013870 !important;
+	color: white !important;
+	height: 43px !important;
+}
+
+.borderRight1 {
+	border-right: 1px solid #ccc;
+}
+
+.borderRightwhite {
+	border-right: 1px solid white;
+}
+
+.input-help {
+	/*  display: none; */
+	position: absolute;
+	z-index: 100;
+	/*top: -6px;
+  left: 160px;
+   width:200px; */
+	padding: 10px;
+	background: #fefefe;
+	font-size: .875em;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #aaa;
+	border: 1px solid #ddd;
+	opacity: 0.9;
+	background-color: red;
+	color: white;
+	margin-top: -45px;
+	margin-left: -18%;
+	font-family: GE-inspira-regular !important;
+}
+
+.modal-header .close {
+	color: white;
+}
+
+.progressBarModal {
+	overflow-x: auto;
+}
+
+img:not ([style-scope] ):not (.style-scope ){
+	max-width: 280px;
+}
+
+.popupfloorMap {
+	height: 300px;
+}
+
+#mapid {
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 0px !important;
+}
+
+.leaflet-control-scale-line {
+	display: none !important;
+}
+
+.my-label {
+	position: absolute;
+	width: 1000px;
+	font-size: 20px;
+}
+
+.dropdownclass {
+	background-color: #00366E !important;
+	color: white !important;
+	border-color: #00366E !important;
+	border-right: 1px solid white !important;
+	width: 185px !important;
+	height: 35px !important;
+}
+
+option {
+	background-color: white !important;
+	color: #000 !important;
+	border-bottom: 1px solid #ccc !important;
+	font-weight: normal;
+	display: block;
+	white-space: pre;
+	min-height: 2.2em;
+	padding: 0px 2px 1px;
+}
+
+.btCreate {
+	background-color: #78C600 !important;
+	color: white !important;
+	border-color: #78C600 !important;
+}
+
+.btDelete {
+	background-color: red !important;
+	color: white !important;
+	border-color: red !important;
+}
+
+table.dataTable tr th {
+	background-color: #575757;
+	color: #ffffff;
+	font-size: 16px;
+	height: 40px;
+	margin: 0px 10px 0px 10px;
+	font-family: GE-inspira-regular !important;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.iconDiv {
+	/* width: 52%; */
+	/*   padding-left: 20% */;
+	/* float: right; */
+	
+}
+
+.dataTables_length>label {
+	display: none !important;
+}
+
+#dataTable_filter>label {
+	display: none !important;
+}
+
+.dataTables_info {
+	display: none !important;
+}
+
+.current {
+	border-color: #00356D !important;
+}
+
+#dataTable_wrapper {
+	background-color: white;
+	padding-bottom: 1%;
+	border-radius: 8px;
+}
+
+.deletePopupLabel {
+	line-height: 3;
+	font-size: 17px;
+	color: #548AC8;
+	font-family: GE-inspira-regular !important;
+}
+
+.deletePopupLabelred {
+	line-height: 3;
+	font-size: 17px;
+	color: red;
+	font-family: GE-inspira-regular !important;
+}
+
+.modal-footerChange {
+	margin-left: -17%;
+	margin-right: -17%;
+}
+
+.btAdd {
+	background-color: white !important;
+	color: #0160BA !important;
+	border-color: #0160BA !important;
+	border-radius: 4px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.user-dropdown {
+	display: none;
+	position: absolute;
+	z-index: 1001;
+	font-size: .875em;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #aaa;
+	border: 1px solid #aaa;
+	opacity: 1;
+	background-color: white;
+	color: #7C7C84;
+	width: 170px;
+	margin-top: -10px;
+	font-family: GE-inspira-regular !important;
+}
+
+.user-dropdown>table {
+	width: 100%;
+	margin-bottom: 0rem !important;
+}
+
+.user-dropdown-tr {
+	height: 35px !important;
+	border-bottom: 1px solid #ccc !important;
+	color: #2b2b2b !important;
+	cursor: pointer;
+	font-size: 14px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.user-dropdown-tr>td {
+	padding-left: 10px;
+}
+
+.user-dropdown-tr>td:hover {
+	padding-left: 10px;
+	background: #0160BA;
+	color: #fefefe !important;
+}
+
+#userDropdownHead {
+	border-right: 1px solid white;
+	color: white;
+	padding-right: 8%;
+	cursor: pointer;
+	width: 165px;
+	font-size: 15px;
+	font-family: GE-inspira-regular !important;
+	padding-top: 5px;
+}
+
+.Informationtable {
+	height: 48.5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.InformationtableMGT {
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #BFBFBF !important;
+}
+
+.InformationtableMGT td {
+	font-family: GE-inspira-regular;
+	padding-left: 25px !important;
+}
+
+.InformationtableTd {
+	padding-left: 10px;
+}
+
+.overlaySearch {
+	background: #000000;
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+#mapid, #map3route, #map4route, #map32route, #map42route {
+	height: 340px;
+	background-color: white;
+}
+
+#maproute {
+	height: 300px;
+}
+
+.btn:not ([style-scope] ):not (.style-scope ){
+	font-family: GE-inspira-regular !important;
+	size: 14px !important;
+	height: 30px;
+	/*   margin-left: 10px !important; */
+	/*  border-radius: 4px !important; */
+}
+
+.modal-body label input[type="button"] {
+	height: 30px;
+	background-color: #ffffff;
+	border: 1px solid #414141;
+	border-radius: 20px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+/* .contact_form {
+    width: 100%;
+} */
+.con_form {
+	padding: 0;
+	width: 99%;
+}
+
+.con_txt[type="text"], .con_txt[type="password"] {
+	margin: 10px 16px;
+	padding: 6px;
+	width: 260px;
+}
+
+/* @media screen and (min-width: 768px) {
+	#myModalAdd .modal-dialog  {
+		width: 800px;
+		height: 335px;
+	}
+} */
+.userLabel {
+	font-family: GE-inspira-regular !important;
+	color: #757575;
+	size: 14px;
+	margin: -9px;
+	margin-left: 1px;
+	margin-right: -23px;
+	padding-top: 13px !important;
+}
+
+.userTypeBtn {
+	padding-top: 35px !important;
+	padding-bottom: 45px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.userAlreadyExistsError {
+	margin-top: -32px;
+	margin-left: -45%;
+	width: 260px;
+	text-align: center;
+}
+
+.overviewLayout {
+	padding-left: 2% !important;
+	padding-right: 2% !important;
+	padding-top: 10px !important;
+}
+
+.plantDetailTabView>li>a {
+	cursor: pointer !important;
+	font-size: 16px !important;
+	border-radius: 15px 15px 0px 0px;
+	/* background-color: #fff !important; */
+}
+
+.plantDetailTabView>li>a:hover {
+	cursor: pointer !important;
+	color: Black !important;
+	background-color: #1997FB !important;
+	border-bottom: 0px !important;
+}
+
+.plantDetailTabViewActive {
+	color: white !important;
+	border-bottom-color: transparent !important;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: #1997FB !important;
+	border-color: #1997FB !important;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.overviewLI {
+	margin-left: 2rem !important;
+	margin-right: 2rem !important;
+	margin-bottom: 0rem !important;
+	background-color: #CCCCCC;
+}
+
+.usageLayout {
+	height: 290px;
+	border: 5px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 1%;
+}
+
+.usageDistributionLayout {
+	height: 288px;
+	border: 5px solid #ccc;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 1%;
+	padding-left: 2%;
+}
+
+.mainLbl {
+	font-family: GE-inspira-regular !important;
+	font-size: 18px !important;
+}
+
+.mainLoginLbl {
+	font-family: GE-inspira-regular !important;
+	font-size: 15px !important;
+	color: #ffffff !important;
+}
+
+[role=banner] h1 svg:not ([style-scope] ):not (.style-scope ), [role=banner] h2 svg:not
+	([style-scope] ):not (.style-scope ) {
+	margin-bottom: -0.5rem !important;
+}
+
+/* [role=banner] h1:not([style-scope]):not(.style-scope), [role=banner] h2:not([style-scope]):not(.style-scope) {
+    line-height: 3.5rem !important;   
+    color: #ffffff !important;
+} */
+.btn-danger {
+	overflow: hidden !important;
+	border: 0px !important;
+}
+
+.btn-default {
+	overflow: hidden !important;
+	border: 0px !important;
+}
+
+.btOverviewBT {
+	background-color: #CCCCCC;
+	color: black;
+	border: 2px solid #AAA;
+	width: 150px;
+	font-size: 15px;
+	height: 30px;
+	margin-left: 10px !important;
+	border-radius: 4px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.plantDetailsTabViewActive {
+	color: white !important;
+	border-bottom-color: transparent !important;
+	height: 30px;
+	font-size: 16px;
+	background-color: #1997FB !important;
+	border-color: #1997FB !important;
+	width: 150px;
+	border-radius: 4px !important;
+	font-family: GE-inspira-regular !important;
+	margin-left: 10px !important;
+}
+/* 
+.btn:not([style-scope]):not(.style-scope) {
+    overflow: hidden !important;
+    border: 0px !important;
+} */
+.active {
+	font-family: GE-Inspira !important;
+	size: 14px !important;
+	height: 30px !important;
+	border-radius: 4px !important;
+	color: #ffffff !important;
+	background-color: #013870 !important;
+	outline: none;
+	border: none !important;
+	display: inline-block;
+}
+
+.fa.fa-toggle-on.active, .fa.fa-toggle-on.inactive {
+	font-size: 30px !important;
+	cursor: pointer !important;
+	font: normal normal normal 28px/1 FontAwesome !important;
+	background-color: transparent !important;
+}
+/* i.fa.fa-toggle-on.inactive { color: #ffffff !important}
+i.fa.fa-toggle-on.active {color: #d9534f !important} */
+i.fa.fa-toggle-on.inactive {
+	color: gray !important
+}
+
+i.fa.fa-toggle-on.active {
+	color: #5cb85c !important
+}
+
+.tableLayoutMGT {
+	/* height:328px; */
+	height: 278px;
+	background-color: white;
+	border: 5px solid #ccc !important;
+	border-radius: 10px !important;
+}
+
+.progressBarMGT {
+	/* height:221px;
+	max-height:221px; */
+	height: 188px;
+	max-height: 188px;
+	overflow-y: auto;
+}
+
+.tableUsageViewMGT tr th {
+	line-height: 3;
+	/* text-align:center; */
+	background-color: #575757 !important;
+	font-size: 13px !important;
+	color: #ffffff !important;
+	font-family: GE-inspira-regular;
+	padding-left: 20px !important;
+}
+
+.tableUsageViewMGT tr td {
+	line-height: 2;
+	font-size: 14px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.leftpadding20 {
+	padding-left: 25px !important;
+	font-size: 14px !important;
+}
+
+.popupLabel {
+	font-family: GE-inspira-regular !important;
+	/* font-size: 15px !important; */
+	font-weight: bold !important;
+}
+
+.popup1Label {
+	font-family: GE-inspira-regular !important;
+	/* font-size: 15px !important; */
+}
+
+.modalTitle {
+	font-family: GE-inspira-regular !important;
+	font-size: 16px !important;
+	line-height: 1 !important;
+	color: white;
+}
+
+.modalTitletxt {
+	font-family: GE-inspira-regular !important;
+	font-size: 16px;
+	color: #548AC8;
+}
+
+.tableDetailedOverviewView tr td {
+	line-height: 2.8;
+	font-size: 13px !important;
+	font-family: GE-inspira-regular;
+}
+
+.progressBarOverview {
+	/* height:276px;
+	max-height:276px; */
+	height: 397px;
+	max-height: 397px;
+	overflow-y: auto;
+}
+
+.progressBarOverviewFixed {
+	height: 292px;
+	max-height: 292px;
+	overflow-y: auto;
+}
+
+.labelColorGreenMGT {
+	color: #00cc44;
+	font-size: 15px;
+	text-align: center;
+	font-family: GE-inspira-regular !important;
+}
+
+.labelColorRedMGT {
+	color: red !important;
+	font-size: 14px;
+	text-align: center;
+	font-family: GE-inspira-regular !important;
+}
+
+.labelColorOrangeMGT {
+	color: orange !important;
+	font-size: 15px;
+	text-align: center;
+	font-family: GE-inspira-regular !important;
+}
+
+.tableLayoutOverviewMGT {
+	height: 354px;
+	/* height:313px; */
+	background-color: white;
+	border: 10px solid #ccc !important;
+	border-radius: 20px !important;
+	margin-top: 5px !important;
+}
+
+.tableLayoutOverviewPortableMGT {
+	/* height:350px; */
+	height: 450px;
+	background-color: white;
+	border: 10px solid #ccc !important;
+	border-radius: 20px !important;
+	margin-top: 5px !important;
+}
+
+.tableDetailedOverviewView tr th {
+	line-height: 2.5;
+	background-color: #575757 !important;
+	color: #ffffff !important;
+	font-family: GE-inspira-regular;
+	text-align: center;
+	/* padding-left: 25px !important; */
+}
+
+table.dataTable thead .sorting_asc {
+	font-size: 14px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+table.dataTable thead .sorting {
+	font-size: 14px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.btErrorBT {
+	/* background-color: #CCCCCC; */
+	color: black;
+	border: 1px solid #ccc;
+	width: 180px;
+	/* font-size: 15px; */
+	height: 24px;
+	/* margin-left: 10px !important; */
+	border-radius: 4px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.tableDetailedViewError tr td {
+	line-height: 2.8;
+	font-size: 13px;
+	font-family: GE-inspira-regular;
+	padding-left: 25px !important;
+}
+
+.dt-text-field.px-datetime-field {
+	border-radius: 15px;
+	width: 100px;
+}
+
+.Informationtable td {
+	font-family: GE-inspira-regular;
+	padding-left: 25px !important;
+}
+
+.user-type-filter {
+	display: none;
+	position: absolute;
+	z-index: 1001;
+	font-size: .875em;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #aaa;
+	border: 1px solid #aaa;
+	opacity: 1;
+	background-color: white;
+	color: #7C7C84;
+	width: 170px;
+	margin-top: -10px;
+	font-family: GE-inspira-regular !important;
+	top: 18%;
+	left: 12%;
+}
+
+.user-type-filter>table {
+	width: 100%;
+	margin-bottom: 0rem !important;
+}
+
+.user-type-filter-tr {
+	height: 35px !important;
+	border-bottom: 1px solid #ccc !important;
+	color: #2b2b2b !important;
+	cursor: pointer;
+	font-size: 14px !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.user-type-filter-tr>td {
+	padding-left: 10px;
+}
+
+.user-type-filter-tr>td:hover {
+	padding-left: 10px;
+	background: #0160BA;
+	color: #fefefe !important;
+}
+
+table.dataTable tbody td {
+	padding: 4px 10px !important;
+}
+
+.btcolorsubmit {
+	border-radius: 5px !important;
+	border-color: #0160BA !important;
+	background-color: #0160BA !important;
+	color: #ffffff !important;
+	font-size: 13px !important;
+	font-family: GE-inspira-regular !important;
+	border-radius: 5px !important;
+}
+
+.flex--center.px-datetime-range-panel {
+	height: 223px !important;
+	width: 443px !important;
+}
+
+.centerAlign {
+	text-align: center;
+}
+
+.statusColorGreen {
+	color: #00cc44;
+	font-weight: bold !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.statusColorRed {
+	color: red !important;
+	font-weight: bold !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.statusColorOrange {
+	color: orange !important;
+	font-weight: bold !important;
+	font-family: GE-inspira-regular !important;
+}
+
+.fontMeiryo {
+	font-family: GE-inspira-regular !important;
+}
+
+[role=banner]:not ([style-scope] ):not (.style-scope ), [role=contentinfo]:not
+	([style-scope] ):not (.style-scope ) {
+	height: 2.7rem !important;
+}
+
+[role=banner] h1:not ([style-scope] ):not (.style-scope ), [role=banner] h2:not
+	([style-scope] ):not (.style-scope ) {
+	line-height: 2.5rem !important;
+	color: #ffffff !important;
+}
+
+body:not ([style-scope] ):not (.style-scope ) {
+	margin-bottom: 0rem !important;
+}
+
+main:not ([style-scope] ):not (.style-scope ) {
+	overflow-x: visible !important;
+}
+
+html:not ([style-scope] ):not (.style-scope ) {
+	background-color: #ccc !important;
+}
